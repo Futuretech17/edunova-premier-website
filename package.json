@@ -1,0 +1,16 @@
+{
+  "name": "edunova-premier-website",
+  "version": "1.0.0",
+  "description": "Edunova Premier - Education Website",
+  "private": true,
+  "scripts": {
+    "dev": "pnpm --filter frontend run dev",
+    "build": "pnpm --filter frontend run build",
+    "preview": "pnpm --filter frontend run preview",
+    "clean": "rm -rf node_modules **/node_modules"
+  },
+  "devDependencies": {
+    "prettier": "^3.8.1",
+    "typescript": "~5.9.2"
+  }
+}
